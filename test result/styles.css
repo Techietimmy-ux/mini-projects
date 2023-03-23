@@ -1,6 +1,7 @@
 body {
     background: #f0ecec;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+
 }
 
 .container {
@@ -13,8 +14,7 @@ body {
 }
 
 div.item-one {
-    background: #5f3ffc;
-    background-image: linear-gradient(#5f3ffc, #2315c0);
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 30px;
 }
 
@@ -22,14 +22,14 @@ div.item-one p {
     text-align: center;
     color: #fff;
     margin-top: 30px;
-    font-size: 24px;
+    font-size: 18px;
     text-transform: capitalize;
 }
 
 div.item-x {
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    background: #462bda;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -40,6 +40,7 @@ div.item-x p {
     margin-top: 0;
     font-size: 60px;
     font-weight: 700;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .item-x p:nth-child(2) {
@@ -54,13 +55,13 @@ div.item-x p {
 div.item-y h2 {
     text-align: center;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     font-size: 30px;
 }
 
 div.item-y p {
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px;
     text-transform: none;
 }
@@ -82,7 +83,6 @@ div.item-y p {
     display: flex;
     margin-left: 40px;
     border-radius: 15px;
-    padding: 5px;
 }
 
 .svg img {
@@ -92,10 +92,11 @@ div.item-y p {
 
 
 div.reaction {
-    background: #dbd2d2;
     margin: 0 40px;
-    color: #c44242;
+    color: hsl(0, 100%, 67%);
+    background: hsla(0, 100%, 67%, 0.1);
     font-weight: 600;
+    font-size: 18px;
 }
 
 p.no-a {
@@ -121,14 +122,14 @@ p.no-y {
 
 p.no-e {
     position: relative;
-    left: 120px;
+    left: 130px;
     color: #000;
 
 }
 
 p.no-f {
     position: relative;
-    left: 120px;
+    left: 140px;
     color: #636161;
 
 }
@@ -141,30 +142,33 @@ p.no-b {
 }
 
 div.memory {
-    background: #ebddac;
+    background: hsla(39, 100%, 56%, 0.1);
     margin: 15px 40px;
-    color: #deb83d;
+    color: hsl(39, 100%, 56%);
     font-weight: 600;
+    font-size: 18px;
 }
 
 div.verbal {
-    background: #a0dbcf;
     margin: 15px 40px;
-    color: #0fdcb3;
+    color: hsl(166, 100%, 37%);
+    background: hsla(166, 100%, 37%, 0.1);
     font-weight: 600;
+    font-size: 18px;
 }
 
 div.visual {
     background: #888cc6;
     margin: 15px 40px;
     font-weight: 600;
-    color: #4750d6;
+    color: hsl(234, 85%, 45%);
+    background: hsla(234, 85%, 45%, 0.1);
     font-weight: 600;
 
 }
 
 div.cont {
-    background: #303b59;
+    background: hsl(224, 30%, 27%);
     margin: 0 40px;
     border-radius: 40px;
     margin-top: 40px;
@@ -177,10 +181,53 @@ div.cont p {
     font-size: 20px;
 }
 
-/* h1 {
-    color: #d98f90;
-    color: #e0c570;
-    color: #63c2af;
-    color: #4e5391;
-    color: #303b59;
-} */
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+
+## Gradients
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%)
+
+### Notes
+
+Use transparency to get the colour variations necessary to match the design. Hint: look into using `hsla()`.
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraphs): 18px
+
+### Font
+
+- Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
+- Weights: 500, 700, 800 */
